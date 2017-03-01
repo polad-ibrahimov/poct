@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.pasport-btn{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.btn{
+    border-radius: 0;
+    color: black;
+    text-decoration: none;
+    padding: 7px 20px;
+    border: 1px solid #f25222;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: #f25222;
+    border: 1px solid #f25222;
+    color: white;
+    -webkit-transition: all 250ms ease-in 0s;
+    -moz-transition: all 250ms ease-in 0s;
+    -o-transition: all 250ms ease-in 0s;
+    transition: all 250ms ease-in 0s;
+}
+
+.header {
+    background: url('../img/map.png') no-repeat;
+    background-color: #f25222;
+    padding: 25px 0;
+    min-height: 645px;
+}
+
+.logo {
+    border-right: 1px solid white;
+}
+
+.call_p {
+    font-weight: bold;
+    font-size: 21px;
+    color: white;
+    margin-right: 15px;
+}
+
+.top_call,
+.lang_panel {
+    padding: 5px 15px;
+}
+
+.header-info p {
+    text-transform: uppercase;
+    float: left;
+    font-size: 14px;
+    text-align: right;
+    color: white;
+    font-weight: bold;
+    padding-top: 5px;
+    margin-right: 5px;
+}
+
+.header-info span {
+    font-weight: bold;
+    font-size: 38px;
+    color: white;
+}
+
+.header-search {
+    padding-top: 12px;
+}
+
+.header-search a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: #fbc222;
+    font-size: 14px;
+    padding: 18px 24px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+.header-search a:hover {
+    background-color: rgba(0, 0, 0, 0.1)
+}
+
+
+.search{
+    background-color: white;
+    padding: 30px 34px;
+}
+
+h1 {
+    font-size: 34px;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.content-text, .head_search {
+    padding-top:12%
+}
+
+.content-text p {
+    font-size: 18px;
+    color: white;
+    font-weight: 100;
+    margin: 0 0 10px;
+    padding: 5px;
+}
+
+.content-text p::before {
+    content: "\e084";
+}
+
+.content-right {
+    background-color: white;
+    padding: 30px 34px;
+}
+
+.content-center {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+}
+
+h2 {
+    color: #191919;
+    font-size: 26px;
+    text-align: center;
+    font-weight: 700;
+    padding: 30px 0;
+}
+
+.item{
+    padding: 15px 25px;
+    background-color: white;
+    min-height: 130px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.11);
+    transition: all .1s ease-in-out;
+}
+
+.item:hover{
+    box-shadow: 0px 0px 10px 0px rgba(242, 82, 34, 0.51);
+}
+
+.topFoot {
+    padding: 70px 0px;
+    border-bottom: 1px solid #cecece;
+}
+
+.footInfo {
+    text-align: center;
+    padding: 0 30px;
+}
+
+.footInfo img {
+    margin-bottom: 45px;
+}
+
+.footInfo p {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+}
+
+.bottomFoot {
+    padding: 50px 0;
+}
+
+.bot-info {
+    font-size: 16px;
+    color: #313131;
+    font-weight: bold;
+}
+
+.bot-info ul li {
+    display: inline-block;
+}
+
+.padding_left_35 {
+    padding-left: 35px;
+}
+
+.margin-top_5 {
+    margin-top: 5px;
+}
+
+.margin_right_25 {
+    margin-right: 25px;
+}
+
+
+
+@media only screen and (max-width: 740px) {
+   
+    .header {
+        padding: 25px 25px;
+    }
+
+    .col_2{
+        width: 50%;
+    }
+
+    .header-info{
+        display: none;
+    }
+    .header-search{
+        margin-top: 30px;
+    }
+    .head_search{
+        padding: 0;
+    }
+
+    .search {
+        width: 60%;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .col_3, .col_4 {
+        width: 100%;
+    }
+
+    .footInfo {
+        padding-bottom: 30px;
+    }
+
+
+    .taplogo {
+        padding: 20px 35px; 
+    }
+}
